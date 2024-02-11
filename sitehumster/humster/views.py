@@ -23,7 +23,7 @@ def category_2(request, cat_id):
         5: '<h1> Висельник не принесёт тебе удачи сегодня </p></h1>',
         6: '<h1> Ты делаешь ошибки, это нормально </p></h1>',
         7: '<h1> Твоя принцесса в другом замке </p></h1>',
-        8: '<h1> Почему ты такой грустный? </p></h1>',
+        8: '<h1> Почему ты такой грустный? видно хуй сосал невкусный </p></h1>',
         9: '<h1> Ты умрёшь </p></h1>',
         10: '<h1> Когда жизнь даёт тебе лимоны — меняй! </p></h1>'
 
@@ -52,6 +52,32 @@ def category_slug(request, cat_slug):
 def category_4(request):
     return render(request, 'humster/umber2.html')
 
+
+def category_5(request):
+    return render(request, 'humster/umber3.1.html')
+
+def category_5_1(request):
+
+    return render(request, 'humster/umber3.2.html')
+
+
+
+
+
+
+    return render(request, 'humster/umber3.5.html')
+
+
+def category_5_5(request):
+    return render(request, 'humster/umber3.6.html')
+def category_sus(request, cut_slug):
+    dict = {
+        1 or "Анджелина Джоли": '<h1> Не смотри так, у других тоже есть проблемы </p></h1>',
+        2 or "Жанна Дарк": '<h1> Дьявол скрытен </p></h1>',
+        3 or "Княгиня Ольга": '<h1> Ты всегда витаешь в облаках </p></h1>',
+        4 or "Роза Люксембург": '<h1> Никто не понимает, с какими проблемами ты столкнулся </p></h1>',
+        5 or "Екатерина Вторая": '<h1> Висельник не принесёт тебе удачи сегодня </p></h1>',
+    }
 
 
 

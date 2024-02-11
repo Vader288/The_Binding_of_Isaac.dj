@@ -23,3 +23,5 @@ urlpatterns = [
 
 
 ]
+admin.site.site_header = 'Bara bara bara, bere bere bere'
+admin.site.index_title = 'Bara bara, bere bere bere bere'

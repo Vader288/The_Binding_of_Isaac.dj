@@ -13,5 +13,9 @@ urlpatterns = [
     path('magdalene/', views.category_3),
     path('cain/<slug:cat_slug>/', views.category_slug),
     path('keeper/', views.category_4),
+    path('lilith0/', views.category_5),
+    path('lilith1/', views.category_5_1),
+
+
 
 ]
